@@ -1,0 +1,19 @@
+# OS cache files
+.DS_Store
+._.*
+Thumbs.db
+
+# Android Studio files
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+
+# Dev files
+*.orig*
