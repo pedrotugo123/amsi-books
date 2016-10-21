@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="pt.ipleiria.estg.booksapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/booksicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/BooksStyle">
+
+        <activity
+            android:name="pt.ipleiria.estg.booksapp.Books"
+            android:label="@string/ac_booksapp_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="pt.ipleiria.estg.booksapp.BookList"
+            android:label="@string/ac_bookslist_title">
+            <intent-filter>
+                <action android:name="pt.ipleiria.estg.booksapp.LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="pt.ipleiria.estg.booksapp.BookGallery"
+            android:label="@string/ac_booksgrid_title">
+            <intent-filter>
+                <action android:name="pt.ipleiria.estg.booksapp.GALLERY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="pt.ipleiria.estg.booksapp.NewBook"
+            android:label="@string/ac_newbook_title">
+            <intent-filter>
+                <action android:name="pt.ipleiria.estg.booksapp.NEWBOOK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="pt.ipleiria.estg.booksapp.About"
+            android:label="@string/ac_about_title">
+            <intent-filter>
+                <action android:name="pt.ipleiria.estg.booksapp.ABOUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

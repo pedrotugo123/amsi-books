@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Books</string>
+    <string name="ac_booksapp_tvTitle">Gestão da sua biblioteca</string>
+    <string name="ac_booksapp_btnBookList">Ver Lista</string>
+    <string name="ac_booksapp_btnGallery">Ver Galeria</string>
+    <string name="ac_booksapp_btnNewBook">Adicionar Livro</string>
+    <string name="ac_booksapp_title">Livros</string>
+
+    <string name="ac_bookslist_title">Lista de Livros</string>
+    <string name="ac_booksgrid_title">Galeria</string>
+    <string name="ac_newbook_title">Adicionar Livro</string>
+    <string name="ac_about_title">Sobre</string>
+    <string name="ac_about_tvDescription">Aplicação para gestão de biblioteca pessoal.\n\nPermite o registo de dados de
+        livros, incluindo as imagens das capas e detalhes dos autores.\n\nDesenvolvido por Sérgio Lopes</string>
+    <string name="ac_about_tvCopyright">(C) 2016, Sérgio Lopes</string>
+    <string name="ac_about_tvIconLinkback">Ícone da APP por http://robinweatherall.co.uk.</string>
+</resources>
